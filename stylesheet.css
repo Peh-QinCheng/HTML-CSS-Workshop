@@ -4,13 +4,18 @@ html, body {
 
 body {
 	margin: 0;
+	background-image: url("grass.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .sidebar {
+	display: inline-block;
 	background-color: gray;
 	color: white;
 	width: 18%;
 	height: 100%;
+	box-shadow: 2px 2px 2px -2px #C0C0C0;
 }
 
 .sidebar a {
@@ -29,4 +34,19 @@ body {
 
 .sidebar li {
 	margin-top: 30px;
+}
+
+.content {
+	height: 100%;
+	float: right;
+	width: 82%;
+	display:inline-block;
+	background: rgba(212, 148, 31, 0.45);
+}
+
+.content h2 {
+	padding-top: 24%;
+	color: white;
+	margin: auto;
+	width: 50%;
 }
