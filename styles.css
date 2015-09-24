@@ -23,6 +23,7 @@ body {
 }
 
 .content{
+	margin: auto;
 	display: inline-block;
 	float: right;
 	background: rgba(212, 148, 31, 0.45);
@@ -38,6 +39,10 @@ body {
 
 .sidebar h2 {
 	padding-left: 16px;
+}
+
+.sidebar h2 a {
+	margin: 0;
 }
 
 ul li {
@@ -60,3 +65,4 @@ h3 {
 	color: white;
 	width: 50%;
 }
+
