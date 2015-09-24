@@ -1,0 +1,32 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.sidebar {
+	background-color: gray;
+	color: white;
+	width: 18%;
+	height: 100%;
+}
+
+.sidebar a {
+	color: white;
+	text-decoration: none;
+}
+
+.sidebar ul {
+	padding-top: 110px;
+	list-style-type: none;
+}
+
+.sidebar h2 {
+	padding-top: 40px;
+}
+
+.sidebar li {
+	margin-top: 30px;
+}
