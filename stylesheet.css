@@ -1,0 +1,54 @@
+html,body {
+	height: 100%;
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	background-image: url("mountains.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sidebar {
+	text-align: center;
+	display: inline-block;
+	padding-top: 30px;
+	background-color: black;
+	color: white;
+	width: 22%;
+	height: 100%;
+}
+
+.sidebar a {
+	color: white;
+	text-decoration: none;
+}
+.sidebar h2 {
+	font-weight: 300;
+	padding-top: 24px;
+}
+
+.sidebar li {
+	list-style-type: none;
+	margin: 30px 0;
+}
+
+.sidebar ul {
+	padding-left: 0;
+	padding-top: 48px;
+}
+
+.content {
+	text-align: center;
+	float: right;
+	width: 78%;
+	display: inline-block;
+	padding-top: 240px;
+}
+
+.content h2,h3 {
+	font-weight: 300;
+}
+
